@@ -33,9 +33,20 @@
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/button_background_color"
-            app:cornerRadius="12dp"
-            android:text="Main"
-            android:textColor="@color/button_text_color" />
+            android:text="Menu"
+            android:textColor="@color/button_text_color"
+            app:cornerRadius="12dp" />
+
+        <Button
+            android:id="@+id/btnMsApps"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/button_background_color"
+            android:text="Apps"
+            android:textColor="@color/button_text_color"
+            app:cornerRadius="12dp" />
 
         <Button
             android:id="@+id/btnSub"
@@ -44,9 +55,9 @@
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:backgroundTint="@color/button_background_color"
-            app:cornerRadius="12dp"
-            android:text="Sub"
-            android:textColor="@color/button_text_color" />
+            android:text="Page"
+            android:textColor="@color/button_text_color"
+            app:cornerRadius="12dp" />
 
         <ImageButton
             android:id="@+id/btnRefresh"
@@ -71,6 +82,12 @@
 
         <WebView
             android:id="@+id/webViewSub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <WebView
+            android:id="@+id/webViewApps"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone" />
